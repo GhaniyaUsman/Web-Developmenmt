@@ -1,0 +1,9 @@
+1. open git bash in the desired folder. right click and open git bash. make sure the path in your git is correct.
+2. create an empty repositry using git init
+3. track all the chnages using git add.
+4. make a version of the repositry using "git commit" 
+    you can send a message by saying -m"message in between" 
+5. create an account on gitub.com
+6. create a new repositry in github
+7. copy the path of that repositry
+8. create an allas using the url pof that github repositry
