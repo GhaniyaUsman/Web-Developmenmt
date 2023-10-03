@@ -1,0 +1,31 @@
+body{
+    background-image: url(greybackground.jpg);
+}
+h1{
+                text-align: center;   
+                color:rgba(249, 243, 247, 0.945);
+                background-color: #ac499d;
+                border-radius: 5px;
+                margin-right: 20px;
+                height:40px;
+                font-size: 30px;
+                padding-left: 100px;
+                padding-right: 60px;
+                padding-bottom: 10px;
+                padding-top: 20px;
+             
+            }
+#b1{
+                text-align: center;
+                color: rgb(0, 0, 0);
+               
+            }
+marquee{
+    color: #bf0d78;
+                font-size: 30px;
+            }
+
+            #a1,#a2,#a3
+            {
+            background-color: #bf0d789f;
+            }           
