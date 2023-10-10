@@ -1,0 +1,41 @@
+ body{
+    height: 95vh;
+    display:grid;
+    grid-template-areas: "head head"
+    "nav main"
+    "footer footer";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 150px 1fr;
+    color: black;
+    font-size: 2em;
+    grid-gap:10px
+ }
+
+ header{
+    grid-area: head;
+    background: lightgreen;
+    text-align: center;
+    padding: 2em;
+ }
+nav{
+grid-area: nav;
+background-color: lightskyblue;
+text-align: center;
+padding: 2em;
+ }
+ main{
+    grid-area: main;
+    background-color: purple;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ footer{
+    grid-area: footer;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 2em;
+ }
+

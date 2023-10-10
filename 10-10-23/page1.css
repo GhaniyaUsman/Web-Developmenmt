@@ -13,8 +13,8 @@ body{
 .container{
     display: grid;
 /* grid-template-rows: repeat(2, 200px);*/
-    grid-auto-columns: minmax(150px, auto)
-    grid-gap: 50px;
+    grid-auto-columns: minmax(150px, auto);
+    grid-gap:50px;
     background-color: rgb(90, 5, 67);
     min
 }
