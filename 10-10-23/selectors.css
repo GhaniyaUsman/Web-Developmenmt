@@ -1,0 +1,13 @@
+li:nth-of-type(2){
+    color:rgb(216, 52, 162)
+}
+li:nth-child(3){ 
+color: blue;
+}
+h1 ~ p{
+    color: aqua;
+    text-align: left;
+}
+p + h1{
+    color: blue;
+}
