@@ -2,22 +2,20 @@
 .flex-container{
     background-color:rgb(24, 27, 203);
     flex-wrap: wrap;
-
 }
 
 .flex-container1{
     display: flex;
     margin: 2px;
- 
 }
 
 .boxy{
     background-color: rgb(152, 149, 236);
-    height: 100px;
+    height: 120px;
     width: 1400px;
-    text-align: center;
-    padding-bottom: 40px;
-   
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .flex-container4{
     display: flex;
@@ -28,20 +26,27 @@
     display: flex;
     text-align: center;
 }
+
 .box{
     background-color: rgb(152, 149, 236);;
-    border-radius: 5px;
+    gap: 50px;
     height: 300px;
     width: 300px;
     margin: 1px;  
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
+
  .box2{
     width: 700px;
  }
+ 
  .boxx{
     background-color: rgb(152, 149, 236);
-    height: 100px;
+    height: 120px;
     width: 1400px;
-    text-align: center;
-    padding-bottom: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
  }
