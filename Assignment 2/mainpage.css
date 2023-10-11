@@ -1,0 +1,35 @@
+.flex-container{
+    background-color:lightseagreen;
+    flex-wrap: wrap;
+}
+
+.flex-container1{
+    display: flex;
+    margin: 1px;
+    padding: 20px;
+}
+.box1{
+    background-color: rgb(152, 149, 236);
+    height: 120px;
+    width: 1400px;
+    justify-content: center;
+    display: flex;
+}
+.flex-container2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/*.boxx2, .boxx3{
+    background-color: rgb(152, 149, 236);
+    height: 300px;
+    width: 140px;
+    margin: 1px;  
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
