@@ -2,7 +2,6 @@
     background-color:lightseagreen;
     flex-wrap: wrap;
 }
-
 .flex-container1{
     display: flex;
     margin: 1px;
@@ -22,7 +21,7 @@
     gap: 10px;
 }
 
-/*.boxx2, .boxx3{
+/*.boxx{
     background-color: rgb(152, 149, 236);
     height: 300px;
     width: 140px;
