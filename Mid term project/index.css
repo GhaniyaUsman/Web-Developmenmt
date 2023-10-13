@@ -3,7 +3,8 @@
     display: flex;
     background-color: black;
     width: 1250px;
-    height: 580px;
+    height: 500px;
+}
 
 .header-flex{
     justify-content: center;
@@ -11,7 +12,7 @@
     display: flex;
     gap: 20px;
     color: antiquewhite;
-    height: 90px;
+    height: 80px;
 }
 .box1{
     margin:30px;
@@ -28,6 +29,7 @@ border-color: red;
 border-radius: 6px;
 padding:4px;
 font-size: 20px;
+
 }
 .pick-button{
     background-color: black;
@@ -37,13 +39,12 @@ font-size: 20px;
     padding:4px;
     font-size: 20px;
 }
-.motorbike{
-    padding-top: 18;
-}
 .box5{
   padding-left: 600px;
+  background-color: black;
 }
 .login{
+    display: flex;
  background-color: red;
  color: white;
  border-radius: 6px;
@@ -52,3 +53,30 @@ font-size: 20px;
  padding-left: 9px;
  padding-right: 9px;
 }
+.rowflex{
+    flex-wrap: wrap;
+    display: flex;
+    background-color: black;
+    width: 1250px;
+    height: 580px;
+    border-color: red;
+    justify-content: center;
+    align-items: center;
+}
+.box7{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 15, 15);
+    width: 400px;
+    height: 350px;
+    margin: 0px;
+}
+.box8{
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(39, 15, 15);
+    width: 400px;
+    height: 350px;
+    margin: 0px;
+}
+   
