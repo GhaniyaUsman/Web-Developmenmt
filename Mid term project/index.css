@@ -2,37 +2,36 @@
     flex-wrap: wrap;
     display: flex;
     background-color: black;
-    width: 1250px;
-    height: 500px;
 }
 
 .header-flex{
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 20px;
-    color: antiquewhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    gap:20px;
     height: 80px;
 }
 .box1{
-    margin:30px;
+    display: flex;
+   margin-left: 30px;
 }
 .box2{
-    font-size: 200%;
-    padding-bottom: 4px;
-    color: red;
+    display: flex;
+    padding-top: 8px;
 }
 .del-button{
-background-color: black;
+background-color: rgb(39, 15, 15);
 color: white;
 border-color: red;
 border-radius: 6px;
 padding:4px;
 font-size: 20px;
-
 }
 .pick-button{
-    background-color: black;
+    background-color:rgb(39, 15, 15);
     color: white;
     border-color: red;
     border-radius: 6px;
@@ -44,7 +43,7 @@ font-size: 20px;
   background-color: black;
 }
 .login{
-    display: flex;
+ display: flex;
  background-color: red;
  color: white;
  border-radius: 6px;
@@ -58,10 +57,10 @@ font-size: 20px;
     display: flex;
     background-color: black;
     width: 1250px;
-    height: 580px;
-    border-color: red;
+    height: 480px; 
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 .box7{
     justify-content: center;
