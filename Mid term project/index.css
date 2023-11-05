@@ -20,7 +20,7 @@
 }
 .box2{
     display: flex;
-    padding-top: 8px;
+    padding-top: 5px;
 }
 .del-button{
 background-color: rgb(39, 15, 15);
@@ -77,19 +77,35 @@ font-size: 20px;
     width: 400px;
     height: 350px;
     margin: 0px;
+ 
 }
 .box9{
     color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 35px;
 }
-.box10{
-    background-color: orange;
+
+input[type="text"]{
+width: 76.5%;
+height: 50%;
+padding: 5px;
+padding-bottom: 25px;
 }
+
+button[type="submit"]{
+width: 80%;
+height: 50%;
+padding: 5px;
+padding-bottom:15px;
+padding-top: 15px;
+text-align: center;
+background-color: red;
+border-radius: 5px;
+font-size: 15px;
+}
+
 .box11{
-background-color: purple;
-}
-.box12{
-    background-color: pink;
-}
-.box13{
-    background-color: brown;
+padding-bottom: 10px;
+padding-top: 10px;
 }

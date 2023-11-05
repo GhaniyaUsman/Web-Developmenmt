@@ -31,6 +31,13 @@
     gap: 20px;
 }
 
+.flex-container4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .box{
     background-color: rgb(152, 149, 236);;
     gap: 50px;
@@ -48,6 +55,14 @@
  }
  
  .boxx{
+    background-color: rgb(152, 149, 236);
+    height: 120px;
+    width: 1400px;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+ }
+ .boxxx{
     background-color: rgb(152, 149, 236);
     height: 120px;
     width: 1400px;
