@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.top-background {
+    background: white; 
+    padding-left: 460px;
+    margin: 0px;
+    font-size:170% ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.toop-background{
+padding-left: 460px;
+font-size: 150%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: lightskyblue;
+}
+
+.bottom-background {
+    background:lightskyblue; 
+    flex: 3;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 30px;
+}
+
